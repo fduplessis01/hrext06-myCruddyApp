@@ -15,7 +15,7 @@ $(document).ready(function(){
     console.log('myItemInStorage', myItemInStorage);
 
     // display the value here
-    $('.list-display-field').text(myItemInStorage); // ??
+    $('.list-display-field').text(key + ' : ' + myItemInStorage); // ??
 
   });
 
