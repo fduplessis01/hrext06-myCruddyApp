@@ -16,5 +16,9 @@ $(document).ready(function(){
   $('.btn-delete').on('click', function(){
     localStorage.removeItem('inputFieldValue');
   });
+  // delete all from local storage when delete all button clicked
+  $('.btn-delete-all').on('click', function () {
+    localStorage.clear();
+  });
 
 });
