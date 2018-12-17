@@ -1,7 +1,7 @@
 $(document).ready(function(){
   console.log('jQuery loaded');
 
-  //var myItemInStorage = {};
+  var itemStorage = {};
 
   // write to local storage from input when button save clicked
   $('.btn-submit').on('click', function(){
@@ -13,9 +13,14 @@ $(document).ready(function(){
     console.log('key', key)
     var myItemInStorage = localStorage.getItem(key);
     console.log('myItemInStorage', myItemInStorage);
+    itemStorage[key] = myItemInStorage
+    console.log('itemStorage', itemStorage)
 
     // display the value here
-    $('.list-display-field').text(key + ' : ' + myItemInStorage); // ??
+     $('.list-display-field').text(key + ' : ' + myItemInStorage); // ??
+     //add multiple values to the display
+     //$('.list-display-field').append(key + ' : ' + myItemInStorage); // ??
+    
 
   });
 
