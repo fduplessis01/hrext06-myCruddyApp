@@ -1,0 +1,37 @@
+    #colors {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: solid black;
+    margin: 0 auto;
+    width: 500px;
+    min-height: 100px;
+}
+
+.color {
+    height: 100px;
+    width: 100px;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+}
+
+.list-display-field {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    border: solid black;
+    /*margin: 0 auto;*/
+
+}
+
+body {
+  background-color: lightblue;
+}
+
+.text {
+  font-family: verdana;
+  font-size: 20px;
+}

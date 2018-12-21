@@ -21,10 +21,21 @@ Create Read Update Delete using localStorage with JS, HTML and CSS
 - [x] Display stored value in proper div
 
 ### Next Sprint (what are we trying to code)
-Examples: Replace with your own.
-- [ ] animate when new data is added
-- [ ] color code the data by timestape (older more greyed out)
-- [ ] Read from yelp api to get good bagel advice in a city
+Discription - interactive recipe folder
+- [ ] input recipes and store on localStorage
+- [ ] get new recipes from google
+- [ ] store new recipes on localStorage
+- [ ] edit stored recipes on localStorage
+- [ ] print out stored recipes
+- [ ] share recipes via email, facebook etc.
+- [ ] add comments to recipes when you tested them out and give a star rating
+- [ ] color code by star rating
+- [ ] store recipes according to different categories
+- [ ] print out a shopping list for ingredience
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
 - [ ] save my local storage to a remote storage for back up
 
 - [ ] Optional: Host on repl.it (html,css, js)
